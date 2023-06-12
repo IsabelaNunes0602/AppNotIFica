@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52E737C2A3745A000B01E31 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E737B2A3745A000B01E31 /* UIColor+.swift */; };
+		E52E737F2A375AE900B01E31 /* ImageDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E737E2A375AE900B01E31 /* ImageDefault.swift */; };
+		E52E73812A375DB100B01E31 /* ButtomDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E73802A375DB100B01E31 /* ButtomDefault.swift */; };
+		E52E73832A375DBE00B01E31 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E73822A375DBE00B01E31 /* LabelDefault.swift */; };
+		E52E73852A375DD100B01E31 /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E73842A375DD100B01E31 /* TextFieldDefault.swift */; };
 		E5E8004F2A2E1C6A00F42012 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8004E2A2E1C6A00F42012 /* Coordinator.swift */; };
 		E5E800512A2E1CF700F42012 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E800502A2E1CF700F42012 /* LoginCoordinator.swift */; };
 		E5E800542A2E1FF700F42012 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E800532A2E1FF700F42012 /* LoginView.swift */; };
@@ -41,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E52E737B2A3745A000B01E31 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		E52E737E2A375AE900B01E31 /* ImageDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDefault.swift; sourceTree = "<group>"; };
+		E52E73802A375DB100B01E31 /* ButtomDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomDefault.swift; sourceTree = "<group>"; };
+		E52E73822A375DBE00B01E31 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
+		E52E73842A375DD100B01E31 /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
 		E5E8004E2A2E1C6A00F42012 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E5E800502A2E1CF700F42012 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		E5E800532A2E1FF700F42012 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -86,6 +96,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E52E73792A37457700B01E31 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E5E8004D2A2E1C1600F42012 /* Coordinator */,
+				E5E800522A2E1FCE00F42012 /* Controller */,
+				E52E737D2A37593C00B01E31 /* Infraestructure */,
+				E52E737A2A37458500B01E31 /* Extensions */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E52E737A2A37458500B01E31 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E52E737B2A3745A000B01E31 /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E52E737D2A37593C00B01E31 /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				E52E737E2A375AE900B01E31 /* ImageDefault.swift */,
+				E52E73802A375DB100B01E31 /* ButtomDefault.swift */,
+				E52E73822A375DBE00B01E31 /* LabelDefault.swift */,
+				E52E73842A375DD100B01E31 /* TextFieldDefault.swift */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
 		E5E8004C2A2E175600F42012 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +181,7 @@
 		E5F3A3722A28CB7B00893F89 /* AppNotifica */ = {
 			isa = PBXGroup;
 			children = (
-				E5E800522A2E1FCE00F42012 /* Controller */,
-				E5E8004D2A2E1C1600F42012 /* Coordinator */,
+				E52E73792A37457700B01E31 /* Source */,
 				E5E8004C2A2E175600F42012 /* Resource */,
 				E5F3A3842A28CB7E00893F89 /* Info.plist */,
 			);
@@ -298,13 +337,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E800512A2E1CF700F42012 /* LoginCoordinator.swift in Sources */,
+				E52E737F2A375AE900B01E31 /* ImageDefault.swift in Sources */,
+				E52E73832A375DBE00B01E31 /* LabelDefault.swift in Sources */,
+				E52E73852A375DD100B01E31 /* TextFieldDefault.swift in Sources */,
 				E5E800542A2E1FF700F42012 /* LoginView.swift in Sources */,
 				E5F3A3782A28CB7B00893F89 /* ViewController.swift in Sources */,
 				E5F3A3742A28CB7B00893F89 /* AppDelegate.swift in Sources */,
 				E5E800562A2E201100F42012 /* LoginViewController.swift in Sources */,
 				E5E8004F2A2E1C6A00F42012 /* Coordinator.swift in Sources */,
+				E52E73812A375DB100B01E31 /* ButtomDefault.swift in Sources */,
 				E5F3A37E2A28CB7B00893F89 /* AppNotifica.xcdatamodeld in Sources */,
 				E5F3A3762A28CB7B00893F89 /* SceneDelegate.swift in Sources */,
+				E52E737C2A3745A000B01E31 /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
