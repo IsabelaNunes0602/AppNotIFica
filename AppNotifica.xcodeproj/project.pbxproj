@@ -12,6 +12,9 @@
 		E52E73812A375DB100B01E31 /* ButtomDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E73802A375DB100B01E31 /* ButtomDefault.swift */; };
 		E52E73832A375DBE00B01E31 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E73822A375DBE00B01E31 /* LabelDefault.swift */; };
 		E52E73852A375DD100B01E31 /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52E73842A375DD100B01E31 /* TextFieldDefault.swift */; };
+		E589212F2A389947003574BB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589212E2A389947003574BB /* RegisterView.swift */; };
+		E58921312A389954003574BB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58921302A389954003574BB /* RegisterViewController.swift */; };
+		E58921342A38997E003574BB /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58921332A38997E003574BB /* RegisterCoordinator.swift */; };
 		E5E8004F2A2E1C6A00F42012 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8004E2A2E1C6A00F42012 /* Coordinator.swift */; };
 		E5E800512A2E1CF700F42012 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E800502A2E1CF700F42012 /* LoginCoordinator.swift */; };
 		E5E800542A2E1FF700F42012 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E800532A2E1FF700F42012 /* LoginView.swift */; };
@@ -51,6 +54,9 @@
 		E52E73802A375DB100B01E31 /* ButtomDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomDefault.swift; sourceTree = "<group>"; };
 		E52E73822A375DBE00B01E31 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
 		E52E73842A375DD100B01E31 /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
+		E589212E2A389947003574BB /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E58921302A389954003574BB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E58921332A38997E003574BB /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
 		E5E8004E2A2E1C6A00F42012 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E5E800502A2E1CF700F42012 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		E5E800532A2E1FF700F42012 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -126,6 +132,24 @@
 			path = Infraestructure;
 			sourceTree = "<group>";
 		};
+		E589212C2A38991C003574BB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E5E800532A2E1FF700F42012 /* LoginView.swift */,
+				E5E800552A2E201100F42012 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E589212D2A38992A003574BB /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				E589212E2A389947003574BB /* RegisterView.swift */,
+				E58921302A389954003574BB /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		E5E8004C2A2E175600F42012 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +169,7 @@
 			children = (
 				E5E8004E2A2E1C6A00F42012 /* Coordinator.swift */,
 				E5E800502A2E1CF700F42012 /* LoginCoordinator.swift */,
+				E58921332A38997E003574BB /* RegisterCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -152,8 +177,8 @@
 		E5E800522A2E1FCE00F42012 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E5E800532A2E1FF700F42012 /* LoginView.swift */,
-				E5E800552A2E201100F42012 /* LoginViewController.swift */,
+				E589212D2A38992A003574BB /* Register */,
+				E589212C2A38991C003574BB /* Login */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -339,14 +364,17 @@
 				E5E800512A2E1CF700F42012 /* LoginCoordinator.swift in Sources */,
 				E52E737F2A375AE900B01E31 /* ImageDefault.swift in Sources */,
 				E52E73832A375DBE00B01E31 /* LabelDefault.swift in Sources */,
+				E589212F2A389947003574BB /* RegisterView.swift in Sources */,
 				E52E73852A375DD100B01E31 /* TextFieldDefault.swift in Sources */,
 				E5E800542A2E1FF700F42012 /* LoginView.swift in Sources */,
+				E58921312A389954003574BB /* RegisterViewController.swift in Sources */,
 				E5F3A3782A28CB7B00893F89 /* ViewController.swift in Sources */,
 				E5F3A3742A28CB7B00893F89 /* AppDelegate.swift in Sources */,
 				E5E800562A2E201100F42012 /* LoginViewController.swift in Sources */,
 				E5E8004F2A2E1C6A00F42012 /* Coordinator.swift in Sources */,
 				E52E73812A375DB100B01E31 /* ButtomDefault.swift in Sources */,
 				E5F3A37E2A28CB7B00893F89 /* AppNotifica.xcdatamodeld in Sources */,
+				E58921342A38997E003574BB /* RegisterCoordinator.swift in Sources */,
 				E5F3A3762A28CB7B00893F89 /* SceneDelegate.swift in Sources */,
 				E52E737C2A3745A000B01E31 /* UIColor+.swift in Sources */,
 			);
